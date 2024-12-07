@@ -1,17 +1,17 @@
 export const TURN = {
-  CROSS: "cross",
-  CIRCLE: "circle",
+    CROSS: "cross",
+    CIRCLE: "circle",
 };
 
 export const CELL_VALUE = {
-  CROSS: "X",
-  CIRCLE: "O",
-  WIN: "win",
+    CROSS: "X",
+    CIRCLE: "O",
+    WIN: "win",
 };
 
 export const GAME_STATUS = {
-  PLAYING: "PLAYING",
-  ENDED: "END",
-  X_WIN: "X",
-  O_WIN: "O",
+    PLAYING: "PLAYING",
+    ENDED: "END GAME",
+    X_WIN: "X WINS",
+    O_WIN: "O WINS",
 };
