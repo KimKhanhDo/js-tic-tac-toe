@@ -101,7 +101,7 @@ function initCellElementList() {
         cell.dataset.idx = index;
     });
 
-    // ------
+    // attach event click for ul element
     const ulElement = getTheListElement();
     if (ulElement) {
         ulElement.addEventListener("click", (event) => {
